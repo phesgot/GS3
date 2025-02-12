@@ -2,6 +2,9 @@
 
 Teste GS3 Técnologia e Serviços
 
+# Preview GIF animado
+![Image](https://github.com/user-attachments/assets/4fb85a76-a539-47c4-8497-6640b8bb1af6)
+
 ## versão do Flutter
 
 Fluter version 3.27.3,
