@@ -1,3 +1,4 @@
+import 'package:app_gs3/src/components/widget_layout_padrao.dart';
 import 'package:flutter/material.dart';
 
 class PageCartoes extends StatelessWidget {
@@ -5,22 +6,8 @@ class PageCartoes extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-          colors: [
-            Color(0xff3C6AB2),
-            Color(0xffE1E8F3),
-            Colors.white,
-            Colors.white,
-          ],
-        ),
-      ),
-      child: Center(
-        child: Text("Cartões"),
-      ),
-    );
+    return WidgetLayoutPadrao(widget: Center(
+      child: Text("Cartões", style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),),
+    ));
   }
 }

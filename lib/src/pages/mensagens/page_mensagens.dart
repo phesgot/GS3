@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../components/widget_appbar_secundaria.dart';
+import '../../components/widget_layout_padrao.dart';
 
 class PageMensagens extends StatelessWidget {
   const PageMensagens({super.key});
@@ -8,23 +9,13 @@ class PageMensagens extends StatelessWidget {
   Widget build(BuildContext context) {
     return WidgetAppbarSecundaria(
       titulo: "Mensagens",
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Color(0xff3C6AB2),
-              Color(0xffE1E8F3),
-              Colors.white,
-              Colors.white,
-            ],
-          ),
+      body: WidgetLayoutPadrao(
+          widget: Center(
+        child: Text(
+          "Mensagens",
+          style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
         ),
-        child: const Center(
-          child: Text("Mensagens"),
-        ),
-      ),
+      )),
     );
   }
 }
