@@ -1,13 +1,15 @@
-# app_gs3
+# 🚀 APP GS3
 
-Teste GS3 Técnologia e Serviços
+![Flutter](https://img.shields.io/badge/Flutter-3.27.3-blue?style=flat&logo=flutter)  
+> Teste GS3 Técnologia e Serviços, aplicação bancaria.
 
-# Preview GIF animado
+## 🎥 Demonstração
 ![Image](https://github.com/user-attachments/assets/4fb85a76-a539-47c4-8497-6640b8bb1af6)
 
-## versão do Flutter
-
-Fluter version 3.27.3,
+## 📂 Tecnologias Utilizadas
+- ✅ Fluter 3.27.3  
+- ✅ Dart  
+- ✅ MobX  
 
 ## Estrutura de Pastas
 
